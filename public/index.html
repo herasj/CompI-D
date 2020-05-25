@@ -1,18 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Compiladores</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+        </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">   
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body style="text-align: center;">
-    <form id="form" style="display: inline-block;">
-        <label>Ingrese la fecha</label>
-        <br>
-        <input id="email" placeholder="dd/mm/aaaa"></input>
-        <br>
-        <button id="check" type="submit" >Correr Script</button>
-    </form>
-    <script src="../main.js"></script>
+    <div class="forms">
+        <span >
+                <form id="fecha" class="center-block">
+                    <div class="form-group">
+                    <label for="exampleInputEmail1">Fecha</label>
+                    <input id="fecha-input" type="text" class="form-control" aria-describedby="emailHelp" placeholder="DD/MM/AAAA">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Validar Fecha</button>
+                </form>
+        </span>
+        <span>
+            <form id="twitter" class="center-block">
+                <div class="form-group">
+                <label for="exampleInputPassword1">Usuario de twitter</label>
+                <input type="text" class="form-control input-sm" id="twitter-input" placeholder="Usuario de twitter">
+                </div>
+                <button type="submit" class="btn btn-primary">Validar Usuario</button>
+            </form>
+        </span>
+    </div>
+    <script src="./js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
