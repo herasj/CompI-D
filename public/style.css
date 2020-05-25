@@ -2,7 +2,10 @@ body {
   font-family: "Nunito", sans-serif;
   height: 100%;
   width: 100%;
-  background-image: url(http://guayacan.uninorte.edu.co/Fotos_Docentes/72136530.jpg);
+  background-image: url(images/background.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 #contenedor{
